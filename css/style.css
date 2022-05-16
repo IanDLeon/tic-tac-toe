@@ -1,3 +1,46 @@
+.container {
+  text-align: center;
+  background-color: salmon;
+}
+
+.game-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-items: center;
+  
+}
+
+.game-cell {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+  margin: 2px;
+  border-top: 15px solid rgb(95, 136, 211) ;
+  border-left: 30px solid rgb(62, 88, 138) ;
+  font-size: 6rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 h1 {
-  color: purple;
+  color: white;
+  font-size: 50px;
+}
+
+.game-notification {
+  color:white;
+  margin: 1px;
+}
+
+.game-restart {
+  padding:10px;
+  font-size: 30px;
+  border-radius: 5px;
 }
